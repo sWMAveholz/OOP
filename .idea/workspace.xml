@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b7731d-02e0-4571-9e0c-6307705a8d1a" name="Default Changelist" comment="OOP Übung 5">
-      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopuebung1/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Shape.java" afterDir="false" />
+    <list default="true" id="d2b7731d-02e0-4571-9e0c-6307705a8d1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oopuebung1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oopuebung1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopuebung1/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopuebung1/Shape.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,33 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest.testContactCounter">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.Test" />
-      <module name="oopuebung1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oopuebung1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestContact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.TestContact" />
-      <module name="oopuebung1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oopuebung1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShapeTest.testCircleArea">
     <configuration name="QueueTest.testContactCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oopuebung1" />
       <extension name="coverage">
@@ -92,7 +67,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testCreateQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShapeTest.testCircleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oopuebung1" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oopuebung1" />
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.QueueTest" />
-      <option name="METHOD_NAME" value="testCreateQueue" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.ShapeTest" />
+      <option name="METHOD_NAME" value="testCircleArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShapeTest.testPolymorphism" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oopuebung1" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +92,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oopuebung1" />
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.QueueTest" />
-      <option name="METHOD_NAME" value="testPerformance" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.ShapeTest" />
+      <option name="METHOD_NAME" value="testPolymorphism" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oopuebung1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopuebung1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oopuebung1" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.ShapeTest" />
+      <option name="METHOD_NAME" value="testSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testWasGeht" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oopuebung1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopuebung1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oopuebung1" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.ShapeTest" />
+      <option name="METHOD_NAME" value="testWasGeht" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShapeTest.testCircleArea" />
+        <item itemvalue="JUnit.ShapeTest.testSquare" />
+        <item itemvalue="JUnit.ShapeTest.testWasGeht" />
+        <item itemvalue="JUnit.ShapeTest.testPolymorphism" />
         <item itemvalue="JUnit.QueueTest.testContactCounter" />
-        <item itemvalue="JUnit.QueueTest.testPerformance" />
-        <item itemvalue="JUnit.QueueTest.testCreateQueue" />
-        <item itemvalue="Application.TestContact" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572270773356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OOP Übung 6">
+      <created>1572858877821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572858877821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OOP Übung 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP Übung 5" />
+    <MESSAGE value="OOP Übung 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP Übung 6" />
   </component>
 </project>

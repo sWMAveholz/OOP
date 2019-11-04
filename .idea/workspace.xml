@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b7731d-02e0-4571-9e0c-6307705a8d1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d2b7731d-02e0-4571-9e0c-6307705a8d1a" name="Default Changelist" comment="OOP Übung 5">
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopuebung1/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oopuebung1/oopuebung1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopuebung1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oopuebung1.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,10 @@
   <component name="ProjectId" id="1SWZXKHtHQgZfqpjhPZgxJC3xhS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -43,20 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestContact">
-    <configuration name="Sekunden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.Sekunden" />
-      <module name="oopuebung1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oopuebung1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QueueTest.testContactCounter">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oopuebung1.Test" />
       <module name="oopuebung1" />
@@ -83,8 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.TestEmployee" />
+    <configuration name="QueueTest.testContactCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oopuebung1" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +84,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oopuebung1" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.QueueTest" />
+      <option name="METHOD_NAME" value="testContactCounter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oopuebung1.TestRandom" />
+    <configuration name="QueueTest.testCreateQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oopuebung1" />
       <extension name="coverage">
         <pattern>
@@ -105,17 +100,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oopuebung1" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.QueueTest" />
+      <option name="METHOD_NAME" value="testCreateQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oopuebung1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopuebung1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oopuebung1" />
+      <option name="MAIN_CLASS_NAME" value="oopuebung1.QueueTest" />
+      <option name="METHOD_NAME" value="testPerformance" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.testContactCounter" />
+        <item itemvalue="JUnit.QueueTest.testPerformance" />
+        <item itemvalue="JUnit.QueueTest.testCreateQueue" />
         <item itemvalue="Application.TestContact" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestRandom" />
-        <item itemvalue="Application.TestEmployee" />
-        <item itemvalue="Application.Sekunden" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571681350679</updated>
     </task>
+    <task id="LOCAL-00001" summary="OOP Übung 5">
+      <created>1572270773356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572270773356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,10 +160,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP Übung 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP Übung 5" />
   </component>
 </project>

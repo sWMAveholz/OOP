@@ -45,7 +45,7 @@ public class ShapeTest {
         Square u = new Square(3);
 
         o = u;
-        //u = o;
+        u = (Square)o;
 
         //u = new Rectangle(1,2);
 
